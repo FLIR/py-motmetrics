@@ -1,10 +1,10 @@
 
 from .mot import MOTAccumulator
-import motmetrics.lap
-import motmetrics.metrics
-import motmetrics.distances
-import motmetrics.io
-import motmetrics.utils
+from . import lap
+from . import metrics
+from . import distances
+from . import io
+from . import utils
 
 
 # Needs to be last line
