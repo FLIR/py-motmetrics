@@ -17,8 +17,8 @@ import time
 
 import numpy as np
 
-import motmetrics.distances as mmd
-from motmetrics.lap import linear_sum_assignment
+from . import distances as mmd
+from .lap import linear_sum_assignment
 
 
 def preprocessResult(res, gt, inifile):

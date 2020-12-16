@@ -24,12 +24,12 @@ __all__ = [
     'MOTAccumulator',
 ]
 
-from motmetrics import distances
-from motmetrics import io
-from motmetrics import lap
-from motmetrics import metrics
-from motmetrics import utils
-from motmetrics.mot import MOTAccumulator
+from . import distances
+from . import io
+from . import lap
+from . import metrics
+from . import utils
+from .mot import MOTAccumulator
 
 # Needs to be last line
 __version__ = '1.2.0'

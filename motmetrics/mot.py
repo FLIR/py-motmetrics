@@ -17,7 +17,7 @@ import itertools
 import numpy as np
 import pandas as pd
 
-from motmetrics.lap import linear_sum_assignment
+from .lap import linear_sum_assignment
 
 _INDEX_FIELDS = ['FrameId', 'Event']
 _EVENT_FIELDS = ['Type', 'OId', 'HId', 'D']

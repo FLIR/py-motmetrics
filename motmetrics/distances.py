@@ -13,7 +13,7 @@ from __future__ import print_function
 
 import numpy as np
 
-from motmetrics import math_util
+from . import math_util
 
 
 def norm2squared_matrix(objs, hyps, max_d2=float('inf')):
